@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pic-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/picGallery/PicGalleryWebPart.js",
+          "manifest": "./src/webparts/picGallery/PicGalleryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PicGalleryWebPartStrings": "lib/webparts/picGallery/loc/{locale}.js"
+  }
+}
